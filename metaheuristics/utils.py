@@ -1,3 +1,9 @@
+import math
+import numpy as np
+import random
+import pandas as pd
+
+
 def greedyselector(p1,new_p1):
     for i in range(len(p1)):
         if p1.loc[i]['f']>new_p1.loc[i]['f']:
