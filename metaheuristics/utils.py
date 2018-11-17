@@ -25,7 +25,7 @@ def initialpopulation(mini,maxi,pop_size):
     return ini_pop
 
 def jaya(*argv):
-    pop_size, Gen, lb, ub = argv
+    pop_size, Gen, mini, maxi = argv
     lb=np.array(mini)
     ub=np.array(maxi)
     p1=initialpopulation(lb,ub,pop_size)
